@@ -1,4 +1,4 @@
-class Global < Formula
+class GlobalUniversal < Formula
   include Language::Python::Shebang
 
   desc "Source code tag system"
