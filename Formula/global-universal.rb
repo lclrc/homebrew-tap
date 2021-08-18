@@ -9,13 +9,7 @@ class GlobalUniversal < Formula
   license "GPL-3.0-or-later"
   revision 1
 
-  bottle do
-    sha256 arm64_big_sur: "f2481ae1cb5d8077d7ac769ca1cda9c34a6cb8d0e89eeb831a452f3992dab6e0"
-    sha256 big_sur:       "7d48a07430d1c4197c031dbbeb2c9993e3470f67ef1b2148e76f433039cebd4d"
-    sha256 catalina:      "3814876d5cb67f8e914415fd2ff09b7ebf62ce272af19e9e4c03baebfbb3aa02"
-    sha256 mojave:        "cf6c674b4656adca75cfd7d34af6aa48c9c7f9ce9498137babe2f69a71bb429d"
-    sha256 x86_64_linux:  "0c8e848c0df6aff47f4db8d28784ea2384c1d60c304287e142895807aa9f6736"
-  end
+  bottle :unneeded
 
   head do
     url ":pserver:anonymous:@cvs.savannah.gnu.org:/sources/global", using: :cvs
