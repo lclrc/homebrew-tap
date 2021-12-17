@@ -9,7 +9,7 @@ class GlobalUniversal < Formula
   license "GPL-3.0-or-later"
   revision 1
 
-  bottle :unneeded
+  # bottle :unneeded
 
   head do
     url ":pserver:anonymous:@cvs.savannah.gnu.org:/sources/global", using: :cvs
